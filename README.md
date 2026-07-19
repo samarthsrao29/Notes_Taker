@@ -80,3 +80,9 @@ This application is designed to run in the system tray in the background with mi
 - **Sync Overhead (<1ms CPU usage):** The sync engine queries the SQLite database every 30 seconds (default). These queries complete in under a millisecond when idle.
 - **Resource Usage during Capturing:** Capturing frontmost window data (via AppleScript) takes a fraction of a second when triggered.
 - **Heavy Tasks:** AI operations are executed in the cloud via remote Gemini API calls, keeping local CPU usage zero. Heavy OCR operations (Tesseract) run purely on-demand, not in the background.
+
+
+
+
+<img width="1288" height="274" alt="image" src="https://github.com/user-attachments/assets/9b24ccca-5e58-4c0c-bff2-33c6ea1e8151" />
+
